@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Hi, I'm <span className="text-accent">Pargs</span>
+            Hi, I'm <span className="text-accent">Putri</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
             AI Engineer & Portfolio Showcase
@@ -66,7 +66,7 @@ const Hero = () => {
               <Linkedin className="h-6 w-6" />
             </a>
             <a 
-              href="mailto:contact@pargs.uk" 
+              href="mailto:putri@pargs.uk" 
               className="p-3 rounded-full bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors"
               aria-label="Email"
             >
