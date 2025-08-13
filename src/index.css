@@ -6,24 +6,24 @@
 
 @layer base {
   :root {
-    --background: 0 0% 95%;
-    --foreground: 152 54% 20%;
+    --background: 0 0% 100%;
+    --foreground: 290 38% 42%;
 
     --card: 0 0% 100%;
-    --card-foreground: 152 54% 20%;
+    --card-foreground: 290 38% 42%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 152 54% 20%;
+    --popover-foreground: 290 38% 42%;
 
-    --primary: 152 54% 20%;
+    --primary: 290 38% 42%;
     --primary-foreground: 0 0% 95%;
-    --primary-glow: 152 54% 35%;
+    --primary-glow: 281 71% 36%;
 
     --secondary: 0 0% 80%;
-    --secondary-foreground: 152 54% 20%;
+    --secondary-foreground: 290 38% 42%;
 
     --muted: 0 0% 80%;
-    --muted-foreground: 152 54% 40%;
+    --muted-foreground: 20 15% 7%;
 
     --accent: 0 54% 20%;
     --accent-foreground: 0 0% 95%;
@@ -33,14 +33,22 @@
 
     --border: 0 0% 80%;
     --input: 0 0% 80%;
-    --ring: 152 54% 20%;
+    --ring: 290 38% 42%;
 
     --radius: 0.5rem;
 
+    --accent-off-white: 45 27% 96%;
+    --accent-pink: 354 47% 58%;
+    --accent-off-black: 20 3% 20%;
+   .accent-off-black {
+      color: #161310;
+    }
+
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)) 0%, hsl(var(--muted)) 100%);
+    --gradient-primary: linear-gradient(180deg, hsl(var(--foreground)) 0%, hsl(var(--accent-pink)) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(var(--foreground)) 0%, hsl(var(--accent-pink)) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--accent-off-white)) 0%, hsl(var(--accent-off-white)) 100%);
+    --gradient-hero-reverse: linear-gradient(180deg, hsl(var(--accent-pink)) 0%, hsl(var(--foreground)) 100%);
 
     /* Shadows */
     --shadow-glow: 0 0 40px hsl(var(--primary-glow) / 0.3);
@@ -77,7 +85,7 @@
     --popover-foreground: 210 40% 98%;
 
     --primary: 260 84% 65%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary-foreground: 222.2 84% 4.9%;
     --primary-glow: 260 84% 75%;
 
     --secondary: 217.2 32.6% 17.5%;

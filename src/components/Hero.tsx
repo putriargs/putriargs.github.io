@@ -15,13 +15,13 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Hi, I'm <span className="text-accent">Putri</span>
+            Hi, I'm <span className="accent-off-black">Putri</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-            AI Engineer & Portfolio Showcase
+            AI Engineer & Unlearner
           </p>
           <p className="text-lg mb-12 text-primary-foreground/80 max-w-2xl mx-auto">
-            Crafting intelligent solutions with cutting-edge AI technology. Explore my projects and innovations in artificial intelligence.
+            Explore my work below to see how I build intelligent solutions.
           </p>
           
           {/* CTA Buttons */}
@@ -30,18 +30,18 @@ const Hero = () => {
               size="lg" 
               variant="secondary"
               onClick={() => scrollToSection('projects')}
-              className="group px-8 py-4 text-lg shadow-elegant hover:shadow-glow transition-all duration-300"
+              className="group px-8 py-4 text-lg shadow-elegant hover:shadow-glow transition-all duration-300 bg-[#161310] hover:bg-[#161310] text-white"
             >
-              View My Projects
+              See My Work
               <ArrowDown className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
             </Button>
             <Button 
               size="lg" 
               variant="outline"
               onClick={() => scrollToSection('contact')}
-              className="px-8 py-4 text-lg border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
+              className="px-8 py-4 text-lg border-primary-foreground/30 text-primary-foreground hover:bg-primary/10"
             >
-              Get In Touch
+              Let's Connect
             </Button>
           </div>
 

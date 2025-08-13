@@ -32,11 +32,10 @@ const Contact = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            Let's Work Together
+            Bring My Expertise to You
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to bring your AI project to life? I'm always excited to discuss 
-            new opportunities and collaborate on innovative solutions.
+            Let's connect and discuss how I can help solve your AI challenges.
           </p>
         </div>
 
@@ -156,7 +155,6 @@ const Contact = () => {
                   Project Inquiry?
                 </h3>
                 <p className="text-muted-foreground text-sm mb-4">
-                  Looking for AI consultation or custom development? 
                   Let's discuss your project requirements.
                 </p>
                 <Button 

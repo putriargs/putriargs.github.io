@@ -6,58 +6,22 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "AI Chat Assistant",
-      description: "Intelligent conversational AI powered by advanced NLP models with context awareness and multi-turn dialogue capabilities.",
-      tags: ["Python", "Transformers", "React", "WebSockets"],
+      title: "Token-Efficient RAG System",
+      description: "Optimized token usage through query compression and dynamic retrieval, significantly reducing API costs.",
+      tags: ["Python", "Transformers", "ChromaDB", "LangChain"],
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=300&fit=crop",
       githubUrl: "#",
       liveUrl: "#",
       featured: true
     },
     {
-      title: "Computer Vision Analytics",
-      description: "Real-time object detection and tracking system for retail analytics using state-of-the-art YOLO models.",
-      tags: ["PyTorch", "OpenCV", "FastAPI", "Docker"],
+      title: "Solving Complex Tasks with an Agentic AI Framework",
+      description: "(Coming Soon) A sophisticated reasoning layer, designed to intelligently plan and execute a sequence of actions to achieve a high-level goal.",
+      tags: ["Autonomous", "LLM", "ReAct Framework", "Function Calling"],
       image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=300&fit=crop",
       githubUrl: "#",
       liveUrl: "#",
       featured: true
-    },
-    {
-      title: "Predictive Analytics Platform",
-      description: "Machine learning platform for time series forecasting with automated feature engineering and model selection.",
-      tags: ["Scikit-learn", "TensorFlow", "Streamlit", "PostgreSQL"],
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
-      githubUrl: "#",
-      liveUrl: "#",
-      featured: false
-    },
-    {
-      title: "NLP Document Processor",
-      description: "Automated document analysis tool with sentiment analysis, entity extraction, and summarization capabilities.",
-      tags: ["spaCy", "NLTK", "Flask", "MongoDB"],
-      image: "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=400&h=300&fit=crop",
-      githubUrl: "#",
-      liveUrl: "#",
-      featured: false
-    },
-    {
-      title: "Recommendation Engine",
-      description: "Collaborative filtering system with deep learning for personalized content recommendations.",
-      tags: ["PyTorch", "Neo4j", "Redis", "Kubernetes"],
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
-      githubUrl: "#",
-      liveUrl: "#",
-      featured: false
-    },
-    {
-      title: "AI-Powered Image Generator",
-      description: "Creative AI tool using diffusion models for generating unique artwork and designs from text prompts.",
-      tags: ["Stable Diffusion", "CUDA", "React", "AWS"],
-      image: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop",
-      githubUrl: "#",
-      liveUrl: "#",
-      featured: false
     }
   ];
 
@@ -69,11 +33,10 @@ const Projects = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            Featured Projects
+            Featured Case Studies
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A showcase of my latest AI projects and innovations. Each project demonstrates 
-            different aspects of artificial intelligence and machine learning applications.
+            A selection of projects where I solved challenges and delivered impactful AI solutions.
           </p>
         </div>
 
@@ -140,7 +103,7 @@ const Projects = () => {
           ))}
         </div>
 
-        {/* Other Projects */}
+        {/* Other Projects
         <div>
           <h3 className="text-3xl font-bold mb-8 text-center text-foreground">
             More Projects
@@ -209,7 +172,7 @@ const Projects = () => {
               </Card>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

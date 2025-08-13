@@ -5,23 +5,18 @@ const About = () => {
   const skills = [
     {
       icon: Brain,
-      title: "AI & Machine Learning",
-      description: "Deep expertise in neural networks, NLP, computer vision, and modern AI frameworks."
-    },
-    {
-      icon: Code2,
-      title: "Full-Stack Development",
-      description: "Proficient in React, Python, Node.js, and cloud technologies for scalable solutions."
+      title: "AI & LLM Engineering",
+      description: "Applying advanced AI concepts to solve complex challenges in information retrieval and generative AI"
     },
     {
       icon: Zap,
-      title: "Innovation Focus",
-      description: "Passionate about pushing boundaries and creating cutting-edge AI applications."
+      title: "Data & Cloud Engineering",
+      description: "Designing and scaling robust data pipelines and cloud infrastructure for enterprise-level applications."
     },
     {
-      icon: Target,
-      title: "Problem Solving",
-      description: "Expert at translating complex business challenges into elegant technical solutions."
+      icon: Code2,
+      title: "Programming",
+      description: "Core languages for building data-intensive and high-performance applications using Python and Java."
     }
   ];
 
@@ -32,14 +27,14 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
             About Me
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm an AI engineer dedicated to creating intelligent systems that solve real-world problems. 
-            With a passion for innovation and a deep understanding of cutting-edge technologies, 
-            I transform ideas into impactful AI solutions.
+          <p className="text-xl text-muted-foreground max-w-5xl mx-auto">
+            I am an engineer with deep expertise across the full technology stack from data pipelines and cloud architecture to scalable mobile applications.
+            My current focus is on AI engineering, where I apply my problem-solving skills to build next-generation intelligent systems. 
+            I apply my background in system optimization to design cost-efficient AI solutions, including advanced RAG systems.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skills.map((skill, index) => (
             <Card 
               key={index} 
@@ -67,10 +62,8 @@ const About = () => {
                 My Journey
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                My journey in AI began with a fascination for how machines can learn and adapt. 
-                Over the years, I've worked on diverse projects ranging from natural language processing 
-                systems to computer vision applications. I believe in the power of AI to augment human 
-                capabilities and create positive impact across industries.
+                My career has always been about the journey of data from engineering the pipelines that carry it to building the applications that use it.
+                This led me to pivot my focus to AI, where I now apply my deep experience in system architecture to build intelligent applications that augment human capabilities and create real-world impact.
               </p>
             </CardContent>
           </Card>
